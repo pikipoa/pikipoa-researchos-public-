@@ -1,16 +1,15 @@
-# Publish target
+# Publication target
 
-Intended GitHub repository:
+Public GitHub repository:
 
-`pikipoa/pikipoa-researchos-public-`
+`https://github.com/pikipoa/pikipoa-researchos-public-`
 
-This working repository is ready to push once that public repository exists and is accessible to the connected GitHub account.
+## Publication rule
 
-Recommended push:
+- The public record begins at the Git genesis commit; it does not retroactively prove the self-reported `2026.06` date in the source ledger.
+- Article versions should link to an exact commit permalink or to the immutable publication tag associated with that version, not only to `main`.
+- Later corrections are added as new commits. Previously published source records are not silently rewritten.
 
-```bash
-git remote add origin https://github.com/pikipoa/pikipoa-researchos-public-.git
-git push -u origin main --follow-tags
-```
+## Genesis tag
 
-After push, articles should link to the exact commit permalink or the `question-002-v1-public-genesis` tag, not only to `main`.
+`question-002-v1-public-genesis`
