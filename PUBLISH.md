@@ -2,14 +2,14 @@
 
 Intended GitHub repository:
 
-`pikipoa/researchos-public`
+`pikipoa/pikipoa-researchos-public-`
 
 This working repository is ready to push once that public repository exists and is accessible to the connected GitHub account.
 
 Recommended push:
 
 ```bash
-git remote add origin https://github.com/pikipoa/researchos-public.git
+git remote add origin https://github.com/pikipoa/pikipoa-researchos-public-.git
 git push -u origin main --follow-tags
 ```
 
